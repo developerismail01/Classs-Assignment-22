@@ -1,0 +1,127 @@
+.body {
+  background: #f5f5f5;
+}
+
+.header-menu {
+  background: white;
+}
+
+.header-menu .container .row .logo a {
+  text-decoration: none;
+}
+
+.header-menu .container .row .logo a span {
+  font-size: 40px;
+  font-weight: 400;
+}
+
+.header-menu .container .row .menu {
+  text-align: right;
+}
+
+.header-menu .container .row .menu ul {
+  margin-bottom: 0;
+}
+
+.header-menu .container .row .menu ul li {
+  display: inline-block;
+  padding: 10px 30px;
+  margin-left: -5px;
+}
+
+.header-menu .container .row .menu ul li a {
+  text-decoration: none;
+  font-size: 20px;
+  line-height: 50px;
+  display: inline-block;
+  font-weight: 600;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.header-menu .container .row .menu ul li:hover a {
+  color: #b6b6b6;
+  cursor: pointer;
+}
+
+.banner-section {
+  background-image: url(./159217740_1784682481691085_2549703048138622928_n.jpg);
+  padding: 350px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  text-align: center;
+  z-index: 1;
+}
+
+.banner-section::before {
+  content: '';
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#1312129a));
+  background-image: linear-gradient(to top, #1312129a);
+  z-index: -1;
+}
+
+.banner-section .container .row .contant h1 {
+  color: #fff;
+  font-weight: 600;
+  padding-top: 60px;
+  font-size: 50px;
+}
+
+.about-section .container .row .contact p {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.about-section .container .row h2 {
+  font-weight: 500;
+}
+
+.about-section .container .row p {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.about-section .container .row h3 {
+  font-size: 25px;
+}
+
+.form-section .container .row img {
+  width: 100%;
+}
+
+.form-section .container .row .form b {
+  color: rgba(0, 0, 0, 0.651);
+  display: block;
+  padding: 8px 0;
+  font-size: 20px;
+}
+
+.form-section .container .row .form .form-box {
+  font-size: 16px;
+  height: 50px;
+  padding-left: 10px;
+  font-weight: 700;
+  color: #777575;
+  background: #fff;
+  border-radius: 7px;
+  border: 2px solid #ddd;
+}
+
+.form-section .container .row .form .textarea {
+  height: 120px;
+}
+
+.form-section .container .row .form .button {
+  font-size: 18px;
+  font-weight: 600;
+  border: none;
+  border-radius: 5px;
+}
+/*# sourceMappingURL=style.css.map */
